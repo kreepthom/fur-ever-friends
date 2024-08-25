@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 
-export const TextFielStyled = styled.input`
+export const TextFieldStyled = styled.input`
 
 `
 
