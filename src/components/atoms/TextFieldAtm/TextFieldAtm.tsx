@@ -1,14 +1,17 @@
 import { InputHTMLAttributes, ReactNode } from "react"
-import { TextFieldStyled } from "./TextFieldStyled"
+import { TextFieldStyled, TextFieldWrapper } from "./TextFieldStyled"
 
+type IconPosition = 'left' | 'right';
 interface TextFieldAtmProps extends InputHTMLAttributes<HTMLInputElement> {
-  icon: ReactNode
+  icon?: ReactNode
+  iconPosition?: IconPosition;
 }
 
-export const TextFieldAtm = (props: TextFieldAtmProps) => {
+export const TextFieldAtm = ({ icon, iconPosition = 'left', ...props }: TextFieldAtmProps) => {
   return (
-    <>
+    <TextFieldWrapper $iconPosition={iconPosition}>
+      {icon && icon}
       <TextFieldStyled {...props}/>
-    </>
+    </TextFieldWrapper>
   )
 }
