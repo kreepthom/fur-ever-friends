@@ -14,7 +14,7 @@ interface TypographyProps extends PropsWithChildren {
   variant: Variant;
 }
 
-export const Typography = styled(({ variant, children, ...props }: TypographyProps) =>
+export const TypographyAtm = styled(({ variant, children, ...props }: TypographyProps) =>
   createElement(variant, props, children),
 )`
   font-weight: ${({ $bold }) => $bold ? 700 : 500};
