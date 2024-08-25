@@ -1,1 +1,0 @@
-export  { TypographyAtm } from "./Typography";
