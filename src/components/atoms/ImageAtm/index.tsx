@@ -1,0 +1,1 @@
+export { ImageAtm } from "./ImageAtm";
