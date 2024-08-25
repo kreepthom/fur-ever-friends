@@ -1,5 +1,5 @@
 import { InputHTMLAttributes, ReactNode } from "react"
-import { TextFielStyled } from "./TextFieldStyled"
+import { TextFieldStyled } from "./TextFieldStyled"
 
 interface TextFieldAtmProps extends InputHTMLAttributes<HTMLInputElement> {
   icon: ReactNode
@@ -8,7 +8,7 @@ interface TextFieldAtmProps extends InputHTMLAttributes<HTMLInputElement> {
 export const TextFieldAtm = (props: TextFieldAtmProps) => {
   return (
     <>
-      <TextFielStyled {...props}/>
+      <TextFieldStyled {...props}/>
     </>
   )
 }
