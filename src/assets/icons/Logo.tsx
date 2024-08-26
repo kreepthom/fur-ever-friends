@@ -4,8 +4,8 @@ export const Logo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
-    width={24}
-    height={24}
+    width="1em"
+    height="1em"
     viewBox="0 0 512 512"
     {...props}
   >
