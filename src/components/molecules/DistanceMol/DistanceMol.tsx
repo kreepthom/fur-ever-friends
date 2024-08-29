@@ -1,5 +1,5 @@
 import { DistanceWrapper } from "./StyledDistance";
-import { Locate } from "../../../assets/icons/Locate";
+import { Locate } from "../../../assets/icons/LocateIcon";
 import { TypographyAtm } from "../../atoms/TypographyAtm";
 
 interface DistanceMolProps {
